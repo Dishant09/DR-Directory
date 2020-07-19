@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DR Directory</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body *ngIf="show=='lastpage'">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="">DR Directory</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href=''>Home</a></li>
+            <li><a (click)="show='aboutus'">About US</a></li>
+          <li><a (click)="show='contactus'" >Contact Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a (click)="show='Registeremployee'"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a (click)="show='login'"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+<br>
+<br>
+<br>
+<div style="text-align:center"><h4>Thank You for choosing our Service...</h4></div>
+<br>
+<br>
+<div class="form-group">        
+    <div style="text-align:center"><a href="/home" class="btn btn-info" role="button">Home</a></div>
+</div>
+</body>
+<div *ngIf="show==='login'">
+    <app-login></app-login>
+  </div>
+  <div *ngIf="show==='aboutus'">
+    <app-aboutus></app-aboutus>
+  </div>
+  <div *ngIf="show==='Registeremployee'">
+    <app-registeremployee></app-registeremployee>
+  </div>
+  <div *ngIf="show==='contactus'">
+    <app-contactus></app-contactus>
+  </div>
+</html>

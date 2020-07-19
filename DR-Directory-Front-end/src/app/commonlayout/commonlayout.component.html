@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">DR Directory</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a (click)="show='home'">Home</a></li>
+      <li><a (click)="show='Viewallemployees'" >View All Employees</a></li>
+      <li><a (click)="show='Updatedetails'" >Update Details</a></li>
+      <li ><a (click)="deleteEmployee()">Delete Account</a></li>
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+
+      <li ><a (click)="logout()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div *ngIf="show==='Viewallemployees'">
+  <app-viewallemployees></app-viewallemployees>
+</div>
+<div *ngIf="show==='Updatedetails'">
+  <app-updatedetails></app-updatedetails>
+</div>
