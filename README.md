@@ -1,5 +1,5 @@
-# DR-Directory Employee Management Application
-The DR-Directory employee management application consists of crucial work-related and important personal information about an employee. It enables users to perform basic operations upon the database such as retrieving, inserting, updating, and deleting Employee Records.
+# Employee Management Application
+The employee management application consists of crucial work-related and important personal information about an employee. It enables users to perform basic operations upon the database such as retrieving, inserting, updating, and deleting Employee Records.
 Some of the features are as follows:
 
 User Features:
@@ -27,6 +27,6 @@ Admin Features:
 - Feedback Messages
 - Sorting
 
-Front-end: Angular,HTML,CSS,Bootstrap
-Back end: Java, Springboot
+Front-end: Angular,HTML,CSS,Bootstrap<br/>
+Back end: Java, Springboot<br/>
 Database: MySQL

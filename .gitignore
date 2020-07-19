@@ -1,44 +1,44 @@
 # compiled output
-DR-Directory-Front-end/dist
-DR-Directory-Front-end/tmp
-DR-Directory-Front-end/out-tsc
+Employee-Management-Front-end/dist
+Employee-Management-Front-end/tmp
+Employee-Management-Front-end/out-tsc
 # Only exists if Bazel was run
-DR-Directory-Front-end/bazel-out
+Employee-Management-Front-end/bazel-out
 
 # dependencies
-DR-Directory-Front-end/node_modules
+Employee-Management-Front-end/node_modules
 
 # profiling files
 chrome-profiler-events.json
 speed-measure-plugin.json
 
 # IDEs and editors
-DR-Directory-Front-end/.idea
-DR-Directory-Front-end/.project
-DR-Directory-Front-end/.classpath
-DR-Directory-Front-end/.c9/
+Employee-Management-Front-end/.idea
+Employee-Management-Front-end/.project
+Employee-Management-Front-end/.classpath
+Employee-Management-Front-end/.c9/
 *.launch
-DR-Directory-Front-end/.settings/
-DR-Directory-Front-end/*.sublime-workspace
+Employee-Management-Front-end/.settings/
+Employee-Management-Front-end/*.sublime-workspace
 
 # IDE - VSCode
-DR-Directory-Front-end/.vscode/*
-DR-Directory-Front-end/!.vscode/settings.json
-DR-Directory-Front-end/!.vscode/tasks.json
-DR-Directory-Front-end/!.vscode/launch.json
-DR-Directory-Front-end/!.vscode/extensions.json
-DR-Directory-Front-end/.history/*
+Employee-Management-Front-end/.vscode/*
+Employee-Management-Front-end/!.vscode/settings.json
+Employee-Management-Front-end/!.vscode/tasks.json
+Employee-Management-Front-end/!.vscode/launch.json
+Employee-Management-Front-end/!.vscode/extensions.json
+Employee-Management-Front-end/.history/*
 
 # misc
-DR-Directory-Front-end//.sass-cache
-DR-Directory-Front-end//connect.lock
-DR-Directory-Front-end//coverage
-DR-Directory-Front-end//libpeerconnection.log
-DR-Directory-Front-end/npm-debug.log
-DR-Directory-Front-end/yarn-error.log
-DR-Directory-Front-end/testem.log
-DR-Directory-Front-end//typings
+Employee-Management-Front-end//.sass-cache
+Employee-Management-Front-end//connect.lock
+Employee-Management-Front-end//coverage
+Employee-Management-Front-end//libpeerconnection.log
+Employee-Management-Front-end/npm-debug.log
+Employee-Management-Front-end/yarn-error.log
+Employee-Management-Front-end/testem.log
+Employee-Management-Front-end//typings
 
 # System Files
-DR-Directory-Front-end/.DS_Store
-DR-Directory-Front-end/Thumbs.db
+Employee-Management-Front-end/.DS_Store
+Employee-Management-Front-end/Thumbs.db
